@@ -14,19 +14,24 @@ Proyek ini merupakan template front-end untuk website Organisasi Perangkat Daera
 * `src/App.jsx`: Entry point utama aplikasi.
 
 ## Cara Menjalankan Project
-Pastikan kamu sudah menginstall [Node.js](https://nodejs.org/).
-
-1. **Ekstrak/Clone Project**
-2. **Instalasi Dependency**
+1. Pastikan kamu sudah menginstall [Node.js](https://nodejs.org/).
+2. **Ekstrak/Clone Project**
+3. **Instalasi Dependency:**
 Buka terminal di folder project, lalu jalankan:
-npm install
-3. **Menjalankan Mode Development:**
+```bash
+    npm install
+```
+4. **Menjalankan Mode Development:**
 Buka terminal di folder project, lalu jalankan:
-npm run dev
+```bash
+    npm run dev
+```
 Buka `http://localhost:5173` di browser Anda.
-4. **Build untuk Produksi:**
+5. **Build untuk Produksi:**
 Jalankan:
-npm run build
+```bash
+    npm run build
+```
 
 ## Catatan Pengembangan 
 * **Status:** Front-End Template Only
