@@ -1,16 +1,38 @@
-# React + Vite
+# Template Website OPD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyek ini merupakan template front-end untuk website Organisasi Perangkat Daerah (OPD) Surakarta yang dikembangkan menggunakan **React JS** dan **Vite** selama masa magang di Diskominfo Surakarta.
 
-Currently, two official plugins are available:
+## Teknologi yang Digunakan
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Framework**: React JS (Vite)
+* **Styling**: Tailwind
+* **Icons**: React Icons
 
-## React Compiler
+## Struktur Folder Utama
+* `src/assets`: Menyimpan gambar, logo, dan file statis lainnya. 
+* `src/components`: Komponen UI dari setiap halaman yang ada dalam website.
+* `src/App.jsx`: Entry point utama aplikasi.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Cara Menjalankan Project
+Pastikan kamu sudah menginstall [Node.js](https://nodejs.org/).
 
-## Expanding the ESLint configuration
+1. **Ekstrak/Clone Project**
+2. **Instalasi Dependency**
+Buka terminal di folder project, lalu jalankan:
+npm install
+3. **Menjalankan Mode Development:**
+Buka terminal di folder project, lalu jalankan:
+npm run dev
+Buka `http://localhost:5173` di browser Anda.
+4. **Build untuk Produksi:**
+Jalankan:
+npm run build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Catatan Pengembangan 
+* **Status:** Front-End Template Only
+* **Databse:** Tidak tersedia (Aplikasi menggunakan data statis/dummy untuk keperluan presentasi layout).
+* **Fitur yang Tersedia:**
+    * Aksesibilitas
+    * Responsive Design (Desktop, Tab;et & Mobile)
+    * Dark/Light Mode
+    * Layouting standar website pemerintahan (Dinkes)
