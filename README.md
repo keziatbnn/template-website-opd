@@ -17,21 +17,21 @@ Proyek ini merupakan template front-end untuk website Organisasi Perangkat Daera
 1. Pastikan kamu sudah menginstall [Node.js](https://nodejs.org/).
 2. **Ekstrak/Clone Project**
 3. **Instalasi Dependency:**
-Buka terminal di folder project, lalu jalankan:
-```bash
+    Buka terminal di folder project, lalu jalankan:
+    ```bash
     npm install
-```
+    ```
 4. **Menjalankan Mode Development:**
-Buka terminal di folder project, lalu jalankan:
-```bash
+    Buka terminal di folder project, lalu jalankan:
+    ```bash
     npm run dev
-```
-Buka `http://localhost:5173` di browser Anda.
+    ```
+    Buka `http://localhost:5173` di browser Anda.
 5. **Build untuk Produksi:**
-Jalankan:
-```bash
+    Jalankan:
+    ```bash
     npm run build
-```
+    ```
 
 ## Catatan Pengembangan 
 * **Status:** Front-End Template Only
