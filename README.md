@@ -35,9 +35,9 @@ Jalankan:
 
 ## Catatan Pengembangan 
 * **Status:** Front-End Template Only
-* **Databse:** Tidak tersedia (Aplikasi menggunakan data statis/dummy untuk keperluan presentasi layout).
+* **Database:** Tidak tersedia (Aplikasi menggunakan data statis/dummy untuk keperluan presentasi layout).
 * **Fitur yang Tersedia:**
     * Aksesibilitas
-    * Responsive Design (Desktop, Tab;et & Mobile)
+    * Responsive Design (Desktop, Tablet & Mobile)
     * Dark/Light Mode
     * Layouting standar website pemerintahan (Dinkes)
